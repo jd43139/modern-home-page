@@ -6,21 +6,29 @@ img{
     width: 400px;
     
 }
+.top-section-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+}
 
 
 .top-section{
-    background-color: #1f2937;
-    color: white;
+    
     display: flex;
     flex-direction: column;
     padding-bottom: 128px;
+    max-width: fit-content;
     
     
 }
 
 .header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding:0;
     margin-bottom: 64px;
 
@@ -29,13 +37,13 @@ img{
     display: flex;
     gap: 32px;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 0;
    
    
 }
 .text{
-    width: 400px;
+    width: 600px;
     
 }
 .header-text{
@@ -60,4 +68,88 @@ a{
     border-color:#3882F6;
     color: white;
     font-weight: bold;
+}
+.image{
+    border: solid;
+    
+}
+.mid-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mid-div .header-text{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 64px;
+}
+.mid-div .photos-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+.photos-div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.photos-div img{
+    border: 2px solid rgb(16, 89, 148);
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+.quote-div{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 64px 256px;
+    
+
+   
+
+}
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+
+}
+.writer{
+    font-size: 18px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+.signup-div-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 128px 256px;
+}
+.signup-div{
+    background-color:  rgb(16, 89, 148);
+    color: white;
+    border-radius: 8px;
+    padding: 32px 64px;
+    display: flex;
+
+
+}
+.container-signup-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container-signup-button button{
+    border: #E5E7EB solid;
+    border-radius: 8px;
+    background-color: rgb(16, 89, 148);
+    color: #E5E7EB;
+    padding: 8px 16px;
 }
