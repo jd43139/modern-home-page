@@ -13,7 +13,7 @@ img{
     justify-content: center;
     background-color: #1f2937;
     color: #E5E7EB;
-    border: solid;
+    
     padding: 0 128px;
     
 }
@@ -38,8 +38,9 @@ img{
     align-items: center;
     justify-content: space-between;
     padding: 64px 0px;
-    border: solid;
+    
     flex-wrap: wrap;
+    
    
    
 }
@@ -94,7 +95,6 @@ a{
     align-items: center;
     gap: 32px;
     flex-wrap: wrap;
-
 }
 .photos-div div{
     display: flex;
