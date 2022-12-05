@@ -12,24 +12,14 @@ img{
     align-items: center;
     justify-content: center;
     background-color: #1f2937;
-    color: white;
-}
-
-
-.top-section{
-    
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 128px;
-    max-width: fit-content;
-    
+    color: #E5E7EB;
     
 }
 
 .header{
     display: flex;
     justify-content: space-between;
-    padding:0;
+    padding:16px 0;
     margin-bottom: 64px;
 
 }
@@ -38,7 +28,7 @@ img{
     gap: 32px;
     align-items: center;
     justify-content: space-between;
-    padding: 0;
+    padding: 64px 0px;
    
    
 }
@@ -135,21 +125,39 @@ a{
     background-color:  rgb(16, 89, 148);
     color: white;
     border-radius: 8px;
-    padding: 32px 64px;
+    padding: 64px 128px;
     display: flex;
+    width: 800px;
+    justify-content: space-between;
+    
 
 
 }
-.container-signup-button{
+.signup-div button{
+    
+    background-color:  rgb(16, 89, 148);
+    color: #E5E7EB;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    padding: 8px 64px;
+    
+
+}
+.signup-div button:active{
+    background-color:  rgb(44, 106, 156);
+
+}
+.signup-div .signup-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.footer{
+    background-color:#1f2937;
+    color: #E5E7EB;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    padding: 32px 16px;
 }
-.container-signup-button button{
-    border: #E5E7EB solid;
-    border-radius: 8px;
-    background-color: rgb(16, 89, 148);
-    color: #E5E7EB;
-    padding: 8px 16px;
-}
+
