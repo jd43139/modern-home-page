@@ -5,9 +5,12 @@ html, body{
     flex-direction: column;
     height: 100%;
 }
+.image{
+    border: solid;
+    width: 35%;
+}
 img{
-    max-width: 400px;
-    
+    width: 100%;
 }
 .top-section-container{
     display: flex;
@@ -42,6 +45,7 @@ img{
     align-items: center;
     justify-content: space-between;
     padding: 64px 0px;
+    width: 100%;
    
     flex-wrap: wrap;
     
@@ -49,8 +53,13 @@ img{
    
 }
 .text{
-    max-width: 600px;
-    min-width:0px;
+    max-width: 500px;
+    min-width: 50px;
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
     
 }
 .header-text{
@@ -79,10 +88,7 @@ a{
     color: white;
     font-weight: bold;
 }
-.image{
-    border: solid;
-    
-}
+
 .mid-div{
     display: flex;
     flex-direction: column;
@@ -170,7 +176,7 @@ a{
 }
 .signup-div button:active{
     background-color:  rgb(44, 106, 156);
-    padding: 6px 48px;
+    
 
 }
 .signup-div .signup-button-container{
