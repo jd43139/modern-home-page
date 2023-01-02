@@ -1,195 +1,53 @@
-html, body{
+body{
     margin: 0;
-    padding: 0;
+}
+.container{
+    background-color:#1F2937;
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+    padding: 8px;
+    flex-wrap: wrap;
+}
+.left{
     display: flex;
     flex-direction: column;
-    height: 100%;
-}
-.image{
-    border: solid;
-    width: 35%;
-}
-img{
-    width: 100%;
-}
-.top-section-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #1f2937;
-    color: #E5E7EB;
-    
-    padding: 0 128px;
-    
-}
+    gap: 64px;
 
-
-
-.header{
-    display: flex;
-    justify-content: space-between;
-    padding:16px 8px;
-    margin-bottom: 64px;
-    
-    flex-wrap: wrap;
-
-}
-.header img{
-    width:100px;
-    
-}
-.content{
-    display: flex;
-    gap: 32px;
-    align-items: center;
-    justify-content: space-between;
-    padding: 64px 0px;
-    width: 100%;
-   
-    flex-wrap: wrap;
-    
-   
-   
 }
 .text{
-    max-width: 500px;
-    min-width: 50px;
-    border: solid;
+    width: 70%;
+}
+.hero-text{
+    font-size: 32px;
+    font-weight: bold;
+
+}
+.sub-text{
+    width: 400px;
+}
+.right{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
-    
-}
-.header-text{
-    font-size: 48px;
-    font-weight: bolder;
-    max-width: fit-content;
+    gap: 64px;
+    align-items: flex-end;
 }
 ul{
-    list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-    flex-wrap: wrap;
-    gap: 32px;
-    
+    gap: 16px;
+    list-style: none;
 }
 a{
     text-decoration: none;
-    color:white;
+    color: aliceblue;
 }
-.text button{
-    background-color: #3882F6;
-    padding: 4px 8px;
-    border-radius: 8px;
-    border-color:#3882F6;
-    color: white;
-    font-weight: bold;
-}
-
-.mid-div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.mid-div .header-text{
-    font-size: 36px;
-    color: #1f2937;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 64px;
-}
-.mid-div .photos-div{
+.image{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 32px;
-    flex-wrap: wrap;
-}
-.photos-div div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.photos-div img{
-    border: 2px solid rgb(16, 89, 148);
-    width: 200px;
-    height: 200px;
-    border-radius: 8px;
-}
-.quote-div{
-    background-color: #E5E7EB;
-    display: flex;
-    flex-direction: column;
-    padding: 64px 256px;
-    
-
-   
-
-}
-.quote-text{
-    font-size: 36px;
-    font-style: italic;
-
-}
-.writer{
-    font-size: 18px;
-    font-weight: bold;
-    align-self: flex-end;
-}
-.signup-div-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 128px 256px;
-}
-.signup-div-container{
-    flex-grow: 1;
-}
-.signup-div{
-    background-color:  rgb(16, 89, 148);
-    color: white;
-    border-radius: 8px;
-    padding: 64px 128px;
-    display: flex;
-    width: 800px;
-    justify-content: space-between;
-    
-    
-
-
-}
-.signup-div button{
-    
-    background-color:  rgb(16, 89, 148);
-    color: #E5E7EB;
-    border: 1px solid #E5E7EB;
-    border-radius: 8px;
-    padding: 8px 64px;
-    
-
-}
-.signup-div button:active{
-    background-color:  rgb(44, 106, 156);
-    
-
-}
-.signup-div .signup-button-container{
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-.footer{
-    background-color:#1f2937;
-    color: #E5E7EB;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 32px 16px;
+    background-color: rgb(191, 192, 193);
+    padding: 100px;
 }
 
