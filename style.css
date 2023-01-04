@@ -23,11 +23,19 @@ body{
     flex-wrap: wrap;
     gap: 16px;
 }
+.header .logo{
+    font-size: 24px;
+    font-style: italic;
+    color:rgb(53, 170, 247);
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+}
 .content{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     flex-wrap: wrap;
+    gap: 16px;
 }
 .left-content{
     width: 430px;
@@ -112,21 +120,35 @@ a{
     font-style: normal;
     font-weight: bold;
 }
+.signup-div-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 32px;
+}
+
 .signup-div{
     background-color: #35aaf7;
-    padding: 16px 32px;
+    padding: 64px 32px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     color: aliceblue;
     border-radius: 8px;
+    width: 800px;
+}
+.hero-b{
+    font-size: 32px;
+    font-weight: bold;
 }
 .signup-div button{
-    padding: 8px 16px;
+    padding: 16px 32px;
     background-color: #35aaf7;
     border-color: aliceblue;
     border-radius: 8px;
     color: aliceblue;
+    flex-shrink: 0;
 }
 .footer{
     display: flex;
@@ -136,10 +158,4 @@ a{
     font-size: 16px;
     background-color: #1F2937;
     color: aliceblue;
-}
-.signup-div-container{
-    display: flex;
-    justify-content: center;
-    
-    padding: 32px;
 }
