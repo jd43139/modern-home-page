@@ -9,3 +9,6 @@ Prevented horizontal overflow (scrolling)
 
 6 jan 13:18 2023
 The 4 photos are centered horizontally now.
+
+7 jan 15:31 2023
+Added hover effect to header links

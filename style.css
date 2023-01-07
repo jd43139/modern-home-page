@@ -91,9 +91,17 @@ ul{
     column-gap: 32px;
     list-style: none;
     flex-wrap: wrap;
+    
+    
+}
+li{
+    transition: 0.3s;
+    border-bottom: 1px solid ;
+    border-bottom-color: #1F2937;
 }
 li:hover{
-    font-weight: bold;
+  
+   border-bottom: 1px solid aliceblue;
 
 }
 a{
